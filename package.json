@@ -10,5 +10,8 @@
   "devDependencies": {
     "content-wind": "latest",
     "nuxt": "latest"
+  },
+  "dependencies": {
+    "@nuxthq/studio": "^2.0.2"
   }
 }
