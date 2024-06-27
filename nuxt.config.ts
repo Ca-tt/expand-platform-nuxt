@@ -1,9 +1,10 @@
 export default defineNuxtConfig({
-  extends: 'content-wind',
-  routeRules: {
-    '/': { prerender: true }
+  content: {
   },
-  modules: [
-    '@nuxthq/studio'
-  ]
-})
+
+  routeRules: {
+    "/": { prerender: true },
+  },
+
+  modules: ["@nuxthq/studio", "@nuxt/content", "@nuxt/image"],
+});
