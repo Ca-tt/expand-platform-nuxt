@@ -2,8 +2,7 @@
 
 <template>
   <section>
-    <h1>About.vue</h1>
-    <NuxtPage />
+    <ContentDoc />
   </section>
 </template>
 
